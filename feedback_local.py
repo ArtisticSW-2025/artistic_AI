@@ -61,7 +61,8 @@ def print_user_conversation(conversation):
 if __name__ == "__main__":
     #학습시킨게 Lora방식이라 BaseModel과 내가만든 adapter 두게 로딩 필요
     base_model_id = "MLP-KTLim/llama-3-Korean-Bllossom-8B"
-    adapter_dir = "./results//checkpoint-420"
+    adapter_dir = "./results//checkpoint-420" #이건 로컬이라 상대경로로 지정
+    adapter_dir = "qixiangme/hospital-feedback_ver3" #이렇게 하면 허깅페이스에서 내가 만든 어뎁터 불러옴
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
     #토크나이저 base_model에서 불러옴
