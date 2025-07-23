@@ -40,6 +40,8 @@ def generate_feedback(model, tokenizer, conversation, device='cuda'):
         input_ids, #input 명시
         max_new_tokens=256, #최대 길이 지정
         do_sample=False, #samlple이라고 text generate할때 쓰는 방식이 있는데 일단 이거 False(너무 랜덤이라서)
+        temperature=0.7,
+        top_p=0.9,
         eos_token_id=tokenizer.eos_token_id, #EndOfSystem 줄임말, 언제 끝나는 지 명시
         pad_token_id=tokenizer.pad_token_id,  # 패딩 토큰 명시
     )
