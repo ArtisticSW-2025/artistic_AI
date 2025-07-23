@@ -1,9 +1,9 @@
 # artistic_AI
-모델 파일 커서 깃헙에 업로드가 안대네요
+모델 파일 커서 깃헙에 업로드가 안되네요 허깅페이스에 올릴게요
 
 허깅페이스:https://huggingface.co/qixiangme/hospital-feedback_ver3
 
-local로 직접 받으시려면 말해주세여 -이창민
+노션에 필요한 libarary 정리해뒀습니다.
 
 ## model
 1. 사용자가 대답한 음성을 텍스트로 변환하는 모델 - stt
