@@ -84,7 +84,7 @@ GitHub “[DialogueGenModel_finetuning](https://github.com/ArtisticSW-2025/artis
 - training data인 [dialogues_medical3.csv](https://github.com/ArtisticSW-2025/artistic_AI/blob/main/DialogueGenModel_finetuning/dialogues_medical3.csv) 는 일부로 원래보다 훨씬 적은 양을 사용했습니다. finetuning 하는데 너무 오래 걸리기도 하고, 편향된 데이터가 좀 있어서 전처리를 했습니다. 원본 training data는 GitHub [dialogues_medical_fixed(utf-8).csv](https://github.com/ArtisticSW-2025/artistic_AI/blob/main/Finetuning_medical_fixed/dialogues_medical_fixed(utf-8).csv)에 있으니까 참고해주세요.
 - inference 과정은 local GPU가 있긴 한데 너무 구려서 Colab GPU로 돌렸습니다.
 
-## 대화 생성 모델 사용 방법
+## 대화 생성 모델 prompt 설명명
 
 ### 모델
 
